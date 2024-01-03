@@ -17,8 +17,6 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_redwood
 TARGET_RECOVERY_DEVICE_MODULES := libinit_redwood
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/redwood
-TARGET_KERNEL_CONFIG := vendor/xiaomi-qgki_defconfig
 TARGET_KERNEL_CONFIG += vendor/redwood-fragment.config
 
 # Kernel modules
